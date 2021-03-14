@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 60vh;
+    background-color: white;
+    border-top: 80px solid pink;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.col:nth-child(1){
+    width: 25%;
+    background-image: url('https://cdn.shopify.com/s/files/1/0454/7539/7785/products/Crema-aclarante-Pandas-Dream-White-Magic-Cream_800x.jpg?v=1599690024');
+    background-position: center;
+    background-size: auto 100%;
+    height: 40vh;
+    margin: 25px;
+    border-radius: 10px 10px 0px 0px;
+    letter-spacing: 2px;
+
+}
+
+.col:nth-child(2){
+    width: 26%;
+    background-image: url('https://cdn.shopify.com/s/files/1/0360/3303/6426/products/8806194024363_512x512.jpg?v=1593099207');
+    background-position: center;
+    background-size: auto 100%;
+    height: 45vh;
+    margin: 25px;
+    border-radius: 10px 10px 0px 0px;
+    letter-spacing: 2px;
+}
+
+.col:nth-child(3){
+    width: 25%;
+    background-image: url('https://universoenlinea.com/wp-content/uploads/Mascarilla-Negra-para-Puntos-Negros-Tako-Pore-Ssok-Ssok-TonyMoly-50ml-universo-en-linea-3.jpg');
+    background-position: center;
+    background-size: auto 100%;
+    height: 42vh;
+    margin: 26px;
+    border-radius: 10px 10px 0px 0px;
+    letter-spacing: 2px;
+}
+
+.col h2{
+    background-color: rgba(161, 160, 160, 0.5);
+    color: rgb(10, 10, 10);
+    font-size: 1.0rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.col button{
+    width: 100%;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    background-color: pink;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 230px;
+}
+
+.col button:hover{
+    background-color: lightsteelblue;
+    color: white;
+    cursor: pointer;
+}
